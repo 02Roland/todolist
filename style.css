@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.todolist{
+    width: 35%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    justify-content: space-evenly;
+    border-radius: 15px;
+}
+
+form {
+    width: 100%;
+    display: flex;
+    margin-bottom: 10px;
+}
+
+h2{
+    margin-bottom: 10px;
+}
+
+input{
+    width: 80%;
+    height: 40px;
+    outline: none;
+    padding: 10px;
+    font-size: 1.2em;
+    border-right: 0;
+    border: 1px solid rgb(180, 175, 175);
+}
+
+button{
+    width: 20%;
+    background-color: blue;
+    color: white;
+    font-size: 1.2em;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: none;
+    border-left: 0;
+    cursor: pointer;
+}
+#elemt{
+    width: 100%;
+    /* background-color: blue; */
+    height: auto;
+    padding: 5px;
+}
+
+input::placeholder{
+    font-style: italic;
+    font-weight: 200;
+    font-size: 16px;
+}
+
+
+#elemt:last-child{
+    margin-bottom: 0;
+}
+
+.todo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    background-color: rgb(71, 71, 235);
+    color: white;
+    padding: 10px 5px;
+    word-break: break-all;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+p{
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+}
+
+i{
+    width: 100;
+    color: white;
+}
+span{
+    width: 10%;
+    background-color: red;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 10px 5px;
+    border-radius: 5px;
+}
