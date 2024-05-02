@@ -108,3 +108,15 @@ span{
     padding: 10px 5px;
     border-radius: 5px;
 }
+@media screen and (max-width: 700px){
+
+    body{
+        padding: 20px;
+    }
+    .todolist{
+        width: 100%;
+    }
+    p, button, input::placeholder, input{
+        font-size: 15px;
+    }
+}
